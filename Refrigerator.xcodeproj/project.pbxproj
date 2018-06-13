@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3D926120CD941D004C5B5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D926020CD941D004C5B5C /* AppDelegate.swift */; };
+		BE3D926320CD941D004C5B5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D926220CD941D004C5B5C /* ViewController.swift */; };
+		BE3D926620CD941D004C5B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3D926420CD941D004C5B5C /* Main.storyboard */; };
+		BE3D926820CD941D004C5B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3D926720CD941D004C5B5C /* Assets.xcassets */; };
+		BE3D926B20CD941D004C5B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3D926920CD941D004C5B5C /* LaunchScreen.storyboard */; };
+		BE3D927620CD941D004C5B5C /* RefrigeratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D927520CD941D004C5B5C /* RefrigeratorTests.swift */; };
+		BE3D928120CD941D004C5B5C /* RefrigeratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D928020CD941D004C5B5C /* RefrigeratorUITests.swift */; };
+		BE3D928F20CD946A004C5B5C /* Refrigerator-PNG-Image-67310.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3D928E20CD946A004C5B5C /* Refrigerator-PNG-Image-67310.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3D927220CD941D004C5B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3D925520CD941C004C5B5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3D925C20CD941D004C5B5C;
+			remoteInfo = Refrigerator;
+		};
+		BE3D927D20CD941D004C5B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3D925520CD941C004C5B5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3D925C20CD941D004C5B5C;
+			remoteInfo = Refrigerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE3D925D20CD941D004C5B5C /* Refrigerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refrigerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3D926020CD941D004C5B5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE3D926220CD941D004C5B5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE3D926520CD941D004C5B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE3D926720CD941D004C5B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3D926A20CD941D004C5B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE3D926C20CD941D004C5B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3D927120CD941D004C5B5C /* RefrigeratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefrigeratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3D927520CD941D004C5B5C /* RefrigeratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigeratorTests.swift; sourceTree = "<group>"; };
+		BE3D927720CD941D004C5B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3D927C20CD941D004C5B5C /* RefrigeratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefrigeratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3D928020CD941D004C5B5C /* RefrigeratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigeratorUITests.swift; sourceTree = "<group>"; };
+		BE3D928220CD941D004C5B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3D928E20CD946A004C5B5C /* Refrigerator-PNG-Image-67310.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refrigerator-PNG-Image-67310.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3D925A20CD941D004C5B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3D926E20CD941D004C5B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3D927920CD941D004C5B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3D925420CD941C004C5B5C = {
+			isa = PBXGroup;
+			children = (
+				BE3D925F20CD941D004C5B5C /* Refrigerator */,
+				BE3D927420CD941D004C5B5C /* RefrigeratorTests */,
+				BE3D927F20CD941D004C5B5C /* RefrigeratorUITests */,
+				BE3D925E20CD941D004C5B5C /* Products */,
+				BE3D928E20CD946A004C5B5C /* Refrigerator-PNG-Image-67310.png */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3D925E20CD941D004C5B5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3D925D20CD941D004C5B5C /* Refrigerator.app */,
+				BE3D927120CD941D004C5B5C /* RefrigeratorTests.xctest */,
+				BE3D927C20CD941D004C5B5C /* RefrigeratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3D925F20CD941D004C5B5C /* Refrigerator */ = {
+			isa = PBXGroup;
+			children = (
+				BE3D926020CD941D004C5B5C /* AppDelegate.swift */,
+				BE3D926220CD941D004C5B5C /* ViewController.swift */,
+				BE3D926420CD941D004C5B5C /* Main.storyboard */,
+				BE3D926720CD941D004C5B5C /* Assets.xcassets */,
+				BE3D926920CD941D004C5B5C /* LaunchScreen.storyboard */,
+				BE3D926C20CD941D004C5B5C /* Info.plist */,
+			);
+			path = Refrigerator;
+			sourceTree = "<group>";
+		};
+		BE3D927420CD941D004C5B5C /* RefrigeratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3D927520CD941D004C5B5C /* RefrigeratorTests.swift */,
+				BE3D927720CD941D004C5B5C /* Info.plist */,
+			);
+			path = RefrigeratorTests;
+			sourceTree = "<group>";
+		};
+		BE3D927F20CD941D004C5B5C /* RefrigeratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3D928020CD941D004C5B5C /* RefrigeratorUITests.swift */,
+				BE3D928220CD941D004C5B5C /* Info.plist */,
+			);
+			path = RefrigeratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3D925C20CD941D004C5B5C /* Refrigerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3D928520CD941D004C5B5C /* Build configuration list for PBXNativeTarget "Refrigerator" */;
+			buildPhases = (
+				BE3D925920CD941D004C5B5C /* Sources */,
+				BE3D925A20CD941D004C5B5C /* Frameworks */,
+				BE3D925B20CD941D004C5B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Refrigerator;
+			productName = Refrigerator;
+			productReference = BE3D925D20CD941D004C5B5C /* Refrigerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3D927020CD941D004C5B5C /* RefrigeratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3D928820CD941D004C5B5C /* Build configuration list for PBXNativeTarget "RefrigeratorTests" */;
+			buildPhases = (
+				BE3D926D20CD941D004C5B5C /* Sources */,
+				BE3D926E20CD941D004C5B5C /* Frameworks */,
+				BE3D926F20CD941D004C5B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3D927320CD941D004C5B5C /* PBXTargetDependency */,
+			);
+			name = RefrigeratorTests;
+			productName = RefrigeratorTests;
+			productReference = BE3D927120CD941D004C5B5C /* RefrigeratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE3D927B20CD941D004C5B5C /* RefrigeratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3D928B20CD941D004C5B5C /* Build configuration list for PBXNativeTarget "RefrigeratorUITests" */;
+			buildPhases = (
+				BE3D927820CD941D004C5B5C /* Sources */,
+				BE3D927920CD941D004C5B5C /* Frameworks */,
+				BE3D927A20CD941D004C5B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3D927E20CD941D004C5B5C /* PBXTargetDependency */,
+			);
+			name = RefrigeratorUITests;
+			productName = RefrigeratorUITests;
+			productReference = BE3D927C20CD941D004C5B5C /* RefrigeratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3D925520CD941C004C5B5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Will kaminski";
+				TargetAttributes = {
+					BE3D925C20CD941D004C5B5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BE3D927020CD941D004C5B5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE3D925C20CD941D004C5B5C;
+					};
+					BE3D927B20CD941D004C5B5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE3D925C20CD941D004C5B5C;
+					};
+				};
+			};
+			buildConfigurationList = BE3D925820CD941C004C5B5C /* Build configuration list for PBXProject "Refrigerator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3D925420CD941C004C5B5C;
+			productRefGroup = BE3D925E20CD941D004C5B5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3D925C20CD941D004C5B5C /* Refrigerator */,
+				BE3D927020CD941D004C5B5C /* RefrigeratorTests */,
+				BE3D927B20CD941D004C5B5C /* RefrigeratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3D925B20CD941D004C5B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3D926B20CD941D004C5B5C /* LaunchScreen.storyboard in Resources */,
+				BE3D926820CD941D004C5B5C /* Assets.xcassets in Resources */,
+				BE3D928F20CD946A004C5B5C /* Refrigerator-PNG-Image-67310.png in Resources */,
+				BE3D926620CD941D004C5B5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3D926F20CD941D004C5B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3D927A20CD941D004C5B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3D925920CD941D004C5B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3D926320CD941D004C5B5C /* ViewController.swift in Sources */,
+				BE3D926120CD941D004C5B5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3D926D20CD941D004C5B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3D927620CD941D004C5B5C /* RefrigeratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3D927820CD941D004C5B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3D928120CD941D004C5B5C /* RefrigeratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE3D927320CD941D004C5B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3D925C20CD941D004C5B5C /* Refrigerator */;
+			targetProxy = BE3D927220CD941D004C5B5C /* PBXContainerItemProxy */;
+		};
+		BE3D927E20CD941D004C5B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3D925C20CD941D004C5B5C /* Refrigerator */;
+			targetProxy = BE3D927D20CD941D004C5B5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE3D926420CD941D004C5B5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3D926520CD941D004C5B5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3D926920CD941D004C5B5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3D926A20CD941D004C5B5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE3D928320CD941D004C5B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE3D928420CD941D004C5B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3D928620CD941D004C5B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A89RW9462N;
+				INFOPLIST_FILE = Refrigerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.Refrigerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE3D928720CD941D004C5B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A89RW9462N;
+				INFOPLIST_FILE = Refrigerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.Refrigerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE3D928920CD941D004C5B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A89RW9462N;
+				INFOPLIST_FILE = RefrigeratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.RefrigeratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refrigerator.app/Refrigerator";
+			};
+			name = Debug;
+		};
+		BE3D928A20CD941D004C5B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A89RW9462N;
+				INFOPLIST_FILE = RefrigeratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.RefrigeratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refrigerator.app/Refrigerator";
+			};
+			name = Release;
+		};
+		BE3D928C20CD941D004C5B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A89RW9462N;
+				INFOPLIST_FILE = RefrigeratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.RefrigeratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Refrigerator;
+			};
+			name = Debug;
+		};
+		BE3D928D20CD941D004C5B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A89RW9462N;
+				INFOPLIST_FILE = RefrigeratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = will.RefrigeratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Refrigerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3D925820CD941C004C5B5C /* Build configuration list for PBXProject "Refrigerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3D928320CD941D004C5B5C /* Debug */,
+				BE3D928420CD941D004C5B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3D928520CD941D004C5B5C /* Build configuration list for PBXNativeTarget "Refrigerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3D928620CD941D004C5B5C /* Debug */,
+				BE3D928720CD941D004C5B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3D928820CD941D004C5B5C /* Build configuration list for PBXNativeTarget "RefrigeratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3D928920CD941D004C5B5C /* Debug */,
+				BE3D928A20CD941D004C5B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3D928B20CD941D004C5B5C /* Build configuration list for PBXNativeTarget "RefrigeratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3D928C20CD941D004C5B5C /* Debug */,
+				BE3D928D20CD941D004C5B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3D925520CD941C004C5B5C /* Project object */;
+}
